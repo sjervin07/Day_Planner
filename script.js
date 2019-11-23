@@ -24,3 +24,14 @@ $("div.row").each(function(index, element) {
     element.classList.add("future");
   }
 });
+
+//Local storage
+
+let input = document.getElementsByClassName("description");
+let save = document.getElementsByClassName("saveBtn");
+
+save.onclick = function() {
+    let value = input.value;
+    console.log(value)
+
+}
