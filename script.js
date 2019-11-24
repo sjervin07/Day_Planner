@@ -30,8 +30,17 @@ $("div.row").each(function(index, element) {
 let input = document.getElementsByClassName("description");
 let save = document.getElementsByClassName("saveBtn");
 
-save.onclick = function() {
-    let value = input.value;
-    console.log(value)
+$(".saveBtn").on("click", function(e){
+    console.log(this.parentElement.getAttribute("data-hour"));
+    var time = this.parentElement.getAttribute("data-hour");
+    var text = this.parentElement.querySelector(".description").querySelector("textarea").value;
+  
+    localStorage.setItem(time,text);
+    console.log(text);
+})
+
+for (var i = 0; i < localStorage.length; i++) {
+    var key = localStorage.key(i);
 
 }
+

@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin-bottom: 30px;
 }
 
 textarea{
@@ -26,7 +27,7 @@ textarea{
   white-space: pre-wrap;
 }
 
-.textarea{
+#textarea{
   width: 100%;
 }
 
