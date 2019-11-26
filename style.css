@@ -11,14 +11,14 @@ textarea{
   border: none;
   resize: none;
   color:#000000;
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: #4D88FF;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -27,7 +27,8 @@ textarea{
   white-space: pre-wrap;
 }
 
-#textarea{
+#textarea09, #textarea10, #textarea11, #textarea12, #textarea13, 
+#textarea14, #textarea15, #textarea16, #textarea17 {
   width: 100%;
 }
 

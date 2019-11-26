@@ -36,11 +36,14 @@ $(".saveBtn").on("click", function(e){
     var text = this.parentElement.querySelector(".description").querySelector("textarea").value;
   
     localStorage.setItem(time,text);
-    console.log(text);
+    
 })
 
-for (var i = 0; i < localStorage.length; i++) {
-    var key = localStorage.key(i);
+for (var i = 9; i < 18; i++) {
 
+  if (i == 9) {
+    document.getElementById("textarea09").value= localStorage.getItem("09")
+  }else{
+    document.getElementById("textarea"+i).value= localStorage.getItem(i)
+  }
 }
-
