@@ -23,6 +23,10 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+.display-3 {
+  font-family: 'Muli', sans-serif;
+}
+
 .description{
   white-space: pre-wrap;
 }
@@ -71,7 +75,6 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  /* padding-top: 15px; */
 }
 
 .saveBtn i:hover {
