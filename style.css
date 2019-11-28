@@ -27,14 +27,11 @@ textarea{
   font-family: 'Muli', sans-serif;
 }
 
+
 .description{
   white-space: pre-wrap;
 }
 
-#textarea09, #textarea10, #textarea11, #textarea12, #textarea13, 
-#textarea14, #textarea15, #textarea16, #textarea17 {
-  width: 100%;
-}
 
 .time-block{
   text-align: center;
@@ -80,4 +77,9 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+/*#textarea09, #textarea10, #textarea11, #textarea12, #textarea13,  
+#textarea14, #textarea15, #textarea16, #textarea17 {
+  width: 100px;
 }
