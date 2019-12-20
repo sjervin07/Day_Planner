@@ -6,4 +6,4 @@ Click on the link and head to the deployed site.
 
 <a href= "https://sjervin07.github.io/Day_Planner/"
 
-/Users/shannon/day_planner/Day_Planner/assets/images/Day Planner.png
+![planner screenshot](/Users/shannon/day_planner/Day_Planner/assets/images/Day Planner.png)
